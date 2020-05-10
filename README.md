@@ -7,6 +7,7 @@ Full article at [ScrapeHero Tutorials](https://www.scrapehero.com/how-to-scrape-
 ## Usage
 
 1. Use the Anaconda Environment (Python 3.7.6)
+1. Execute 'conda install -c plotly plotly-orca==1.2.1 psutil requests'
 1. Open the Anaconda Prompt and install requirements `pip install -r requirements.txt`
 1. Add Amazon Product URLS to [urls_list.txt](urls_list.txt)
 1. Run `Amazon-Sentiment-Analysis.ipynb` on Jupyter Notebook
