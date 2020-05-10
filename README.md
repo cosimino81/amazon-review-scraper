@@ -10,6 +10,7 @@ Full article at [ScrapeHero Tutorials](https://www.scrapehero.com/how-to-scrape-
 1. Open the Anaconda Prompt and install requirements `pip install -r requirements.txt`
 1. Add Amazon Product URLS to [urls_list.txt](urls_list.txt)
 1. Run `Amazon-Sentiment-Analysis.ipynb` on Jupyter Notebook
+1. You will have all the plots in the folder [plots]
 1. Get data from [data.csv](data.csv)
 
 ## Example Data Format
