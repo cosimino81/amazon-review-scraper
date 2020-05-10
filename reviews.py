@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 from selectorlib import Extractor
 import requests 
 import json 
@@ -37,7 +39,7 @@ def scrape(url):
     return e.extract(r.text)
 
 # product_data = []
-with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
+with open("urls_2.txt",'r') as urllist, open('data.csv','w', encoding='utf-8') as outfile:
     writer = csv.DictWriter(outfile, fieldnames=["title","content","date","variant","images","verified","author","rating","product","url"],quoting=csv.QUOTE_ALL)
     writer.writeheader()
     for url in urllist.readlines():
@@ -56,6 +58,9 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
                 if r['images']:
                     r['images'] = "\n".join(r['images'])
                 r['date'] = dateparser.parse(date_posted).strftime('%d %b %Y')
+                
+                print(r)
+
                 writer.writerow(r)
             # sleep(5)
     
