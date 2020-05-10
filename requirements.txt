@@ -2,3 +2,4 @@ python-dateutil
 requests
 selectorlib
 textblob
+plotly==4.7.0
