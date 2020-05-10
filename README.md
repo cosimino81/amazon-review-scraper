@@ -6,9 +6,10 @@ Full article at [ScrapeHero Tutorials](https://www.scrapehero.com/how-to-scrape-
 
 ## Usage
 
-1. Install Requirements `pip3 install -r requirements.txt`
-1. Add Amazon Product URLS to [urls.txt](urls.txt)
-1. Run `python3 reviews.py`
+1. Use the Anaconda Environment (Python 3.7.6)
+1. Open the Anaconda Prompt and install requirements `pip install -r requirements.txt`
+1. Add Amazon Product URLS to [urls_list.txt](urls_list.txt)
+1. Run `Amazon-Sentiment-Analysis.ipynb` on Jupyter Notebook
 1. Get data from [data.csv](data.csv)
 
 ## Example Data Format
